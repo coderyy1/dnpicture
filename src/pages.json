@@ -1,6 +1,11 @@
 {
 	"pages": [ 
-		
+		{
+			"path": "pages/video/index",
+			"style": {
+				"navigationBarTitleText": "视频"
+			}
+		},
 		{
 			"path": "pages/home/index",
 			"style": {
@@ -13,12 +18,7 @@
 				"navigationBarTitleText": "横屏"
 			}
 		},
-		{
-			"path": "pages/video/index",
-			"style": {
-				"navigationBarTitleText": "视频"
-			}
-		},
+		
 		{
 			"path": "pages/search/index",
 			"style": {
@@ -29,6 +29,31 @@
 			"path": "pages/mine/index",
 			"style": {
 				"navigationBarTitleText": "我的"
+			}
+		},
+		
+		{
+			"path": "pages/imgDetail/index",
+			"style": {
+				"navigationBarTitleText": "图片详情"
+			}
+		},
+		{
+			"path": "pages/album/index",
+			"style": {
+				"navigationBarTitleText": "专辑详情"
+			}
+		},
+		{
+			"path": "pages/imgCategory/index",
+			"style": {
+				"navigationBarTitleText": "图片分类"
+			}
+		},
+		{
+			"path": "pages/videoPlay/index",
+			"style": {
+				"navigationBarTitleText": "视频播放"
 			}
 		}
 	],
